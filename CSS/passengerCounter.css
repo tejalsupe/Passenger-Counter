@@ -1,0 +1,38 @@
+body{
+    background-image: url(nature5.jpg);
+    background-size: cover;
+    font-weight: bold;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 50px;
+}
+button{
+    padding: 10px 0px;
+    width: 250px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top:10px ;
+}
+#increment{
+    background-color: darkred;
+}
+#save-btn{
+    background-color: darkgreen;
+}
+#saveData{
+    font-size: 20px;
+    font-weight: bold;
+}
+@media screen and (max-width:940px) {
+    body{
+        background-size:1009px;
+        
+    }
+}
